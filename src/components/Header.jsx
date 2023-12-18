@@ -6,11 +6,12 @@ export default function Header({title,paragraph}) {
   return (
 <>
 <Stack direction={"column"} textAlign={"left"}>
-    <Typography variant='h5' sx={{color:theme.palette.info.light,fontWeight:"bold"}}>
+    <Typography variant='h5'
+     sx={{color:theme.palette.info.light,fontWeight:"bold"}}>
 {title}
-    </Typography>
-    <Typography variant="body1" color="initial">
-        {paragraph}
+</Typography>
+<Typography variant="body1" color={theme.palette.mode === 'dark' ? 'white' : 'initial'}>
+      {paragraph}
     </Typography>
 </Stack>
 </>
