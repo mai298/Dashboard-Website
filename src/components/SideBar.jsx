@@ -115,7 +115,7 @@ function SideBar({open,handleDrawerClose}) {
           </DrawerHeader>
           <Divider />
 
-          <Avatar sx={{margin:"0 auto",my:1,border:"2px solid grey",transition:"0.25s"}}  alt="Remy Sharp" src="public\assets\7294793.jpg" />
+          <Avatar sx={{margin:"0 auto",my:1,border:"2px solid grey",transition:"0.25s"}}  alt="Remy Sharp" src="7294793.jpg" />
 
 <Typography  align='center'  sx={{fontSize:open? 17:0,transition:"0.25s"}} >Mai Mohamed</Typography>
 <Typography align='center'  sx={{fontSize:open? 15:0,transition:"0.25s",color:theme.palette.info.main}} >Admin</Typography>
